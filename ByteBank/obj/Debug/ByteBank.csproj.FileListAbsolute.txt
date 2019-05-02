@@ -1,0 +1,14 @@
+C:\Users\Rodolfo\source\repos\ByteBank\ByteBank\bin\Debug\ByteBank.exe.config
+C:\Users\Rodolfo\source\repos\ByteBank\ByteBank\bin\Debug\ByteBank.exe
+C:\Users\Rodolfo\source\repos\ByteBank\ByteBank\bin\Debug\ByteBank.pdb
+C:\Users\Rodolfo\source\repos\ByteBank\ByteBank\obj\Debug\ByteBank.csprojAssemblyReference.cache
+C:\Users\Rodolfo\source\repos\ByteBank\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\Rodolfo\source\repos\ByteBank\ByteBank\obj\Debug\ByteBank.exe
+C:\Users\Rodolfo\source\repos\ByteBank\ByteBank\obj\Debug\ByteBank.pdb
+C:\Users\Rodolfo\Documents\projetosAlura\ByteBank\ByteBank\bin\Debug\ByteBank.exe.config
+C:\Users\Rodolfo\Documents\projetosAlura\ByteBank\ByteBank\bin\Debug\ByteBank.exe
+C:\Users\Rodolfo\Documents\projetosAlura\ByteBank\ByteBank\bin\Debug\ByteBank.pdb
+C:\Users\Rodolfo\Documents\projetosAlura\ByteBank\ByteBank\obj\Debug\ByteBank.csprojAssemblyReference.cache
+C:\Users\Rodolfo\Documents\projetosAlura\ByteBank\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\Rodolfo\Documents\projetosAlura\ByteBank\ByteBank\obj\Debug\ByteBank.exe
+C:\Users\Rodolfo\Documents\projetosAlura\ByteBank\ByteBank\obj\Debug\ByteBank.pdb
