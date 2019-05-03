@@ -14,14 +14,12 @@ namespace ByteBank
 
             GerenciadorBonificacao gerenfiador = new GerenciadorBonificacao();
 
-            Funcionario carlos = new Funcionario();
+            Funcionario carlos = new Funcionario("054.438.115-65");
             carlos.Nome = "Carlos";
-            carlos.Cpf = "054.438.115-65";
             carlos.Salario = 2000;
 
-            Diretor roberta = new Diretor();
+            Diretor roberta = new Diretor("054.438.115-65");
             roberta.Nome = "Roberta";
-            roberta.Cpf = "454.658.115-65";
             roberta.Salario = 5000;
 
             Console.WriteLine(carlos.Nome);
