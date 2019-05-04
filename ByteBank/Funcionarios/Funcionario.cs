@@ -13,13 +13,14 @@ namespace ByteBank.Funcionarios
 
         public string Nome { get; set; }
         public string Cpf { get; set; }
-        public double Salario { get; set; }
+        public double Salario { get; protected set; } //protected para ser setado pela classe e seus filhos como no salario do metodo diretor
 
-        public Funcionario(string cpf)
+        public Funcionario(double salario, string cpf)
         {
             Console.WriteLine("Criando funcionário");
             TotalDeFucionarios++;
             Cpf = cpf;
+            Salario = salario;
         }
 
         public virtual void AumentarSalario()
