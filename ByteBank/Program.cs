@@ -23,12 +23,12 @@ namespace ByteBank
             roberta.AumentarSalario();
 
             Console.WriteLine(carlos.Nome);
-            Console.WriteLine(carlos.Salario);
+            Console.WriteLine("Salario do Carlos com aumento: " + carlos.Salario);
             Console.WriteLine(carlos.GetBonificacao());
             gerenfiador.Registrar(carlos);
 
             Console.WriteLine(roberta.Nome);
-            Console.WriteLine(roberta.Salario);
+            Console.WriteLine("Salário da Roberta com aumento: " + roberta.Salario);
             Console.WriteLine(roberta.GetBonificacao());
 
             gerenfiador.Registrar(roberta);
