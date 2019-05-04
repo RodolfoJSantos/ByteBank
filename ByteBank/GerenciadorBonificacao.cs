@@ -9,6 +9,7 @@ namespace ByteBank
 {
     public class GerenciadorBonificacao
     {
+        //não pode ser setado fora da classe
         private double _totalBonificacao;
 
         public void Registrar(Funcionario funcionario)
