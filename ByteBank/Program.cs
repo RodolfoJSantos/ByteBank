@@ -17,16 +17,20 @@ namespace ByteBank
             Funcionario carlos = new Funcionario("054.438.115-65");
             carlos.Nome = "Carlos";
             carlos.Salario = 2000;
+            carlos.AumentarSalario();
 
             Diretor roberta = new Diretor("054.438.115-65");
             roberta.Nome = "Roberta";
             roberta.Salario = 5000;
+            roberta.AumentarSalario();
 
             Console.WriteLine(carlos.Nome);
+            Console.WriteLine(carlos.Salario);
             Console.WriteLine(carlos.GetBonificacao());
             gerenfiador.Registrar(carlos);
 
             Console.WriteLine(roberta.Nome);
+            Console.WriteLine(roberta.Salario);
             Console.WriteLine(roberta.GetBonificacao());
 
             gerenfiador.Registrar(roberta);
