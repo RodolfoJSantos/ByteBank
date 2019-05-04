@@ -13,7 +13,7 @@ namespace ByteBank.Funcionarios
 
         public string Nome { get; set; }
         public string Cpf { get; set; }
-        public double Salario { get; protected set; }
+        public double Salario { get; protected set; } //protected para ser setado pela classe e seus filhos como no salario do metodo diretor
 
         public Funcionario(double salario, string cpf)
         {
