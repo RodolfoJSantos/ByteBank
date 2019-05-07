@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Funcionarios
 {
-    public class Diretor : Autenticavel
+    public class Diretor : FuncionarioAutenticavel
     {
         //diz que o construtor Diretor vai chamar o construtor Funcionario, passando o seu argumento cpf
         public Diretor(string cpf) : base(5000, cpf)

@@ -13,7 +13,9 @@ namespace ByteBank
         static void Main(string[] args)
         {
             //static é chamado sozinho pois é da classe
-            CalcularBonificacao();
+            //CalcularBonificacao();
+
+            UsarSistema();
             Console.ReadLine();
         }
 
@@ -29,8 +31,12 @@ namespace ByteBank
             roberta.Nome = "Roberta";
             roberta.Senha = "abc";
 
-            sistemaInterno.Logar(roberta, "123");
-            sistemaInterno.Logar(camila, "abc");
+            ParceiroComercial parceiro = new ParceiroComercial();
+            parceiro.Senha = "a12";
+
+            sistemaInterno.Logar(parceiro, "a12");
+            sistemaInterno.Logar(roberta, "abc");
+            sistemaInterno.Logar(camila, "123");
         }
 
 
@@ -60,3 +66,4 @@ namespace ByteBank
         }
     }
 }
+;
