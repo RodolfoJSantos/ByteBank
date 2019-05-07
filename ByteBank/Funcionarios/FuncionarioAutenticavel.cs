@@ -11,6 +11,7 @@ namespace ByteBank.Funcionarios
     {
         public string Senha { get; set; }
 
+        //base é funcionario, que recebe do fAutentc...
         public FuncionarioAutenticavel(double salario, string cpf)
          : base(salario, cpf)
         {
