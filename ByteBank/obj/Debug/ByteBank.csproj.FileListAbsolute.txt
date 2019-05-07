@@ -12,3 +12,10 @@ C:\Users\Rodolfo\Documents\projetosAlura\ByteBank\ByteBank\obj\Debug\ByteBank.cs
 C:\Users\Rodolfo\Documents\projetosAlura\ByteBank\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
 C:\Users\Rodolfo\Documents\projetosAlura\ByteBank\ByteBank\obj\Debug\ByteBank.exe
 C:\Users\Rodolfo\Documents\projetosAlura\ByteBank\ByteBank\obj\Debug\ByteBank.pdb
+C:\Users\rodolfo.santos\Documents\rod\projetosAlura\ByteBank\ByteBank\bin\Debug\ByteBank.exe.config
+C:\Users\rodolfo.santos\Documents\rod\projetosAlura\ByteBank\ByteBank\bin\Debug\ByteBank.exe
+C:\Users\rodolfo.santos\Documents\rod\projetosAlura\ByteBank\ByteBank\bin\Debug\ByteBank.pdb
+C:\Users\rodolfo.santos\Documents\rod\projetosAlura\ByteBank\ByteBank\obj\Debug\ByteBank.csprojAssemblyReference.cache
+C:\Users\rodolfo.santos\Documents\rod\projetosAlura\ByteBank\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\rodolfo.santos\Documents\rod\projetosAlura\ByteBank\ByteBank\obj\Debug\ByteBank.exe
+C:\Users\rodolfo.santos\Documents\rod\projetosAlura\ByteBank\ByteBank\obj\Debug\ByteBank.pdb

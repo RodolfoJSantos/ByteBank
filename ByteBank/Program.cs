@@ -1,4 +1,5 @@
 ﻿using ByteBank.Funcionarios;
+using ByteBank.Sis;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,23 @@ namespace ByteBank
             CalcularBonificacao();
             Console.ReadLine();
         }
+
+        public static void UsarSistema()
+        {
+            SistemaInterno sistemaInterno = new SistemaInterno();
+
+            GerenteDeConta camila = new GerenteDeConta("054.438.115-65");
+            camila.Nome = "Camila";
+            camila.Senha = "123";
+
+            Diretor roberta = new Diretor("054.438.115-65");
+            roberta.Nome = "Roberta";
+            roberta.Senha = "abc";
+
+            sistemaInterno.Logar(roberta, "123");
+            sistemaInterno.Logar(camila, "abc");
+        }
+
 
         //static pois vai ser chamado pelo metodo main que também é estático da classe program
         public static void CalcularBonificacao()
