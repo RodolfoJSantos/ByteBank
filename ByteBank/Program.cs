@@ -11,33 +11,34 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
+            //static é chamado sozinho pois é da classe
+            CalcularBonificacao();
+            Console.ReadLine();
+        }
 
+        //static pois vai ser chamado pelo metodo main que também é estático da classe program
+        public static void CalcularBonificacao()
+        {
             GerenciadorBonificacao gerenfiador = new GerenciadorBonificacao();
 
-            Funcionario carlos = new Funcionario(2000, "054.438.115-65");
-            carlos.Nome = "Carlos";
-            carlos.AumentarSalario();
+            Auxiliar igor = new Auxiliar("054.438.115-65");
+            igor.Nome = "Igor";
 
-            Diretor roberta = new Diretor("054.438.115-65");
+            Designer pedro = new Designer("054.438.115-65");
+            pedro.Nome = "Pedro";
+
+            Funcionario camila = new GerenteDeConta("054.438.115-65");
+            camila.Nome = "Camila";
+
+            Funcionario roberta = new Diretor("054.438.115-65");
             roberta.Nome = "Roberta";
-            roberta.AumentarSalario();
 
-            Console.WriteLine(carlos.Nome);
-            Console.WriteLine("Salario do Carlos com aumento: " + carlos.Salario);
-            Console.WriteLine(carlos.GetBonificacao());
-            gerenfiador.Registrar(carlos);
-
-            Console.WriteLine(roberta.Nome);
-            Console.WriteLine("Salário da Roberta com aumento: " + roberta.Salario);
-            Console.WriteLine(roberta.GetBonificacao());
-
+            gerenfiador.Registrar(igor);
+            gerenfiador.Registrar(pedro);
+            gerenfiador.Registrar(camila);
             gerenfiador.Registrar(roberta);
 
             Console.WriteLine("Total de bonificações: " + gerenfiador.GetTotalBonificacao());
-
-
-            Console.ReadLine();
-
         }
     }
 }
